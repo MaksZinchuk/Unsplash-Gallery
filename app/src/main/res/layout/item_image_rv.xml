@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="200dp"
+    android:layout_height="240dp">
+<LinearLayout
+    android:id="@+id/linearLayout"
+    android:layout_width="200dp"
+    android:layout_height="240dp"
+    android:orientation="vertical">
+    <ProgressBar
+        android:id="@+id/progressBar_loadImage"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+    <ImageView
+        android:id="@+id/imageView_image"
+        android:visibility="gone"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@color/black"
+        />
+<LinearLayout
+    android:layout_width="200dp"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/button_like"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/unlike"
+        />
+
+    <TextView
+        android:id="@+id/textView_likes"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_gravity="left"
+        android:gravity="center_vertical"
+        android:text="123"
+        android:textSize="15dp"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/textView_date"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_gravity="start"
+        android:text="Date"
+        android:textSize="10dp"
+        android:gravity="start"
+        />
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>

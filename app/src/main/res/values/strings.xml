@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Unsplash Gallery</string>
+    <string name="activityGallery_label">Gallery</string>
+    <string name="noInternetConnection">No internet connection!</string>
+
+    <string-array name="order_by">
+        <item>latest</item>
+        <item>oldest</item>
+        <item>popular</item>
+    </string-array>
+
+</resources>
